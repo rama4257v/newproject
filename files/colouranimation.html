@@ -1,0 +1,216 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        .cabin{
+            position: absolute;
+            top: 44%;
+            left: 40%;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .bar{
+            background-color: aquamarine;
+            width: 25px;
+            height: 8px;
+            display: inline-block;
+        }
+
+        .bar1{
+            background-color: rgb(6, 246, 222);
+            animation: bar1 .8s linear infinite
+            ;
+        }
+
+        @keyframes bar1 {
+            0%{
+              transform: scaleY(25);
+            }
+            50%{
+                transform: scaleY(5);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+        }
+
+        .bar2{
+            background-color:rgb(255, 132, 0);
+            animation: bar2 .5s ease infinite;
+            animation-delay:1s;
+        }
+
+        @keyframes bar2 {
+            0%{
+              transform: scaleY(0);
+            }
+            50%{
+                transform: scaleY(10);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+
+
+        }
+
+        .bar3{
+            background-color: rgb(213, 1, 255);
+            animation: bar3 .5s ease infinite;
+            animation-delay: .5s
+            ;
+        }
+
+        @keyframes bar3 {
+            0%{
+              transform: scaleY();
+            }
+            50%{
+                transform: scaleY(5);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+
+            
+        }
+
+        .bar4{
+            background-color:rgb(149, 255, 0);
+            animation: bar4 .5s linear infinite
+            ;
+            animation-delay: .7s;
+        }
+
+        @keyframes bar4 {
+            0%{
+              transform: scaleY(35);
+            }
+            50%{
+                transform: scaleY(10);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+
+            
+        }
+
+        .bar5{
+            background-color: rgb(74, 11, 234);
+            animation: bar5 .5s ease infinite
+            ;
+            animation-delay: .5s;
+        }
+
+        @keyframes bar5 {
+            0%{
+              transform: scaleY(0);
+            }
+            50%{
+                transform: scaleY(5);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+
+            
+        }
+
+        .bar6{
+            background-color: rgb(156, 216, 25);
+            animation: bar6 .5s linear infinite
+            ;
+            animation-delay: 1s;
+        }
+
+        @keyframes bar6 {
+            0%{
+              transform: scaleY();
+            }
+            50%{
+                transform: scaleY(10);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+
+            
+        }
+
+
+        .bar7{
+            background-color: rgb(169, 7, 134);
+            animation: bar7 .8s linear infinite
+            ;
+            animation-delay: .5s;
+        }
+
+        @keyframes bar7 {
+            0%{
+              transform: scaleY(40);
+            }
+            50%{
+                transform: scaleY(0);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+
+            
+        }
+
+
+        .bar8{
+            background-color: rgb(51, 210, 34);
+            animation: bar8 .8s linear infinite
+            ;
+            animation-delay: .3s;
+        }
+
+        @keyframes bar8 {
+            0%{
+              transform: scaleY(25);
+            }
+            50%{
+                transform: scaleY(5);
+            }
+            100%{
+                transform: scaleY(0);
+            }
+
+            
+        }
+        .head{
+            text-align: center;
+            background-color: black;
+        }
+    </style>
+    <body>
+        <h1  class="head" style="color: rgb(255, 153, 0); text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-color: azure; border-style: solid; border-width: 5px;">Music Bar</h1>
+        
+<div class="cabin">
+    
+
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+        <div class="bar bar4"></div>
+        <div class="bar bar5"></div>
+        <div class="bar bar6"></div>
+        <div class="bar bar7"></div>
+        <div class="bar bar8"></div>
+
+    </div>
+    </body>
+    </html>
