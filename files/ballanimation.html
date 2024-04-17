@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            background-color: black;
+        }
+
+        .cabin{
+        
+           
+            background-color: rgb(0, 0, 0);
+                       
+        }
+
+      
+
+            .ball1{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                animation: ball1 1s ease infinite;
+                animation-direction: alternate;
+                position: absolute;
+                left: 35vw;
+                background-color: red;
+            }
+
+           @keyframes ball1 {
+            0%{
+                top: 10vh;
+            }   
+            
+            100%{
+                top: 45vh;
+            }
+           }
+
+
+           .ball2{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                animation: ball2 2s ease 1s infinite;
+                animation-direction: alternate;
+                position: absolute;
+                left: 45vw;
+                background-color: rgba(141, 221, 11, 0.959);
+            }
+
+           @keyframes ball2 {
+            0%{
+                top: 10vh;
+            }   
+        
+            100%{
+                top: 45vh;
+            }
+           }
+
+
+           .ball3{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                animation: ball2 .8s ease  infinite;
+                animation-direction: alternate;
+                position: absolute;
+                
+                left: 55vw;
+                background-color: rgba(237, 107, 7, 0.959);
+            }
+
+           @keyframes ball3 {
+            0%{
+                top: 10vh;
+            }   
+        
+            100%{
+                top: 45vh;
+            }
+           }
+
+           .ball4{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                animation: ball2 1s ease 1s infinite;
+                animation-direction: alternate;
+                position: absolute;
+            
+                left: 65vw;
+                background-color: rgba(11, 221, 172, 0.959);
+            }
+
+           @keyframes ball4 {
+            0%{
+                top: 10vh;
+            }   
+        
+            100%{
+                top: 45vh;
+            }
+           }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="cabin">
+
+        <div class="ball ball1"></div>
+        <div class="ball ball2"></div>
+        <div class="ball ball3"></div>
+        <div class="ball ball4"></div>
+        <div class="ball ball5"></div>
+        <div class="ball ball6"></div>
+    </div>
+</body>
+</html>
