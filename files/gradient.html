@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h1{
+          
+          
+        }
+
+        .linear{
+            background-image:repeating-linear-gradient( red 0%,blue 20%);
+            height: 100px;
+            width: 800px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .radial{
+            height: 150px;
+            width: 180px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            
+            animation: wave 1s linear  infinite;
+        }
+
+@keyframes wave {
+
+
+        0%{
+            background-image:radial-gradient( rgb(0, 145, 255) 10% , rgb(4, 0, 255) 40%,lightblue 10%);
+            }
+
+            25%{
+            background-image:radial-gradient( rgb(0, 208, 255) 30% , rgb(0, 38, 255) 50%,lightblue 100%);
+            }
+
+            50%{
+            background-image:radial-gradient( rgb(0, 149, 255) 40% , rgb(17, 0, 255) 60%,lightblue 100%);
+            }
+
+            100%{
+            background-image:radial-gradient( rgb(0, 204, 255) 50% , rgb(0, 140, 255) 50%,lightblue 100%);
+            }
+}
+        .conical{
+            height: 150px;
+            width: 180px;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: conic-gradient(red 0deg, red 90deg ,rgb(210, 224, 14) 90deg, rgb(210, 224, 14) 180deg ,blue 180deg , blue 270deg ,green 270deg);
+        }
+
+        .rainbow{
+        
+            height: 100px;
+            width: 800px;
+    
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: linear-gradient(to right,  red,yellow,blue,purple,green,black,white);
+        }
+
+
+        .reflect:hover{
+                -webkit-box-reflect:right 20px;
+              
+                
+
+        }
+
+        .reflect{
+            background-image: url(./virat.jfif);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment:;
+            height: 400px;
+            width: 400px;
+           margin-left: auto;
+           margin-right: auto;
+
+        }
+        .bottomcabin{
+            background-image: url(./sandwich.jpg);
+            background-attachment: fixed;
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <div>
+            <h1  class="linear">Linear</h1>
+        </div>
+
+        <div >
+            <h1 class="radial">radial</h1>
+        </div>
+
+
+        <div >
+            <h1 class="conical">conical</h1>
+        </div>
+
+        <div >
+            <h1 class="rainbow">Rainbow</h1>
+        </div>
+
+        <div class="reflect">
+            
+        </div>
+
+        <div class="bottomcabin">
+                <p style="width: 200px; color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maxime voluptatibus illum impedit, unde voluptas at quaerat eius distinctio, est non laborum excepturi dicta consectetur fuga laboriosam officiis sunt maiores?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi mollitia nihil provident necessitatibus? Sequi nulla officia consectetur, rem facilis ex commodi ea voluptate amet veritatis tenetur excepturi, ipsam magni.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque fugiat laborum nihil veritatis nesciunt consectetur ut assumenda voluptatibus quam autem, sunt voluptatum exercitationem ipsam repellat impedit. Temporibus commodi dolores rem?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae asperiores, nulla, repellat ea optio odit impedit error fugit dignissimos maxime cumque, nam dolorem. Nam vitae voluptatum, dignissimos labore repellendus repellat!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ea minus cumque dignissimos, quasi unde, numquam aperiam laborum sint sit molestias eligendi ut dolorem saepe corrupti esse debitis? Similique, inventore.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis repellat nulla odio id provident. Ad perferendis aliquid harum sed doloremque, eum maiores pariatur fugit sapiente illum id nihil laboriosam! Sint!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis sit minus a quo non voluptatum blanditiis quisquam officia, odio explicabo tenetur nostrum, omnis ullam fugit qui cupiditate ex! Dolor!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, veritatis adipisci. Recusandae omnis minima voluptate necessitatibus cupiditate dolor iusto voluptatum similique id eius nisi, fugit atque! Repellat doloribus at deleniti?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus illum aliquam magni tempore nisi dolorum harum, beatae, fugiat eum et veniam eaque ad totam explicabo obcaecati quibusdam quia aperiam porro?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero magni praesentium animi odio voluptate. Assumenda ea nisi error, numquam maxime voluptatum, blanditiis, id odio iusto ullam eos velit veniam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi voluptatem magnam, aspernatur labore quos dolore expedita temporibus repellat. Cupiditate ullam labore nobis doloribus repellendus fugiat, eveniet facere a totam?
+                </p>
+
+        </div>
+    </div>
+</body>
+</html>

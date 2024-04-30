@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .leftcabin h1{
+            color: rgba(117, 116, 115, 0.678);
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+            
+            font-size:20px;
+            
+        }
+        .leftcabin{
+            text-align: center;
+           
+            height: 100vh;
+            width: 24vw;
+            position: fixed;
+
+           
+        }
+        .cabin{
+       
+           display:flex;
+
+        }
+        
+        
+        .rightcabin{
+            
+            width:80%;
+            overflow-y: scroll;
+            
+
+       
+        }
+
+
+        .buttoncabin{
+        background-color: darkgray;
+
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+     
+        
+        
+        }  
+        
+        button{
+            width: 35px;
+            height:35px;
+            background-color: black;
+            color: azure;
+        }
+
+        .imgg{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            grid-template-rows:auto auto auto;
+            
+            position: absolute;
+            left:25vw;
+
+           
+        }
+
+        .bottomcabin{
+            background-color: rgb(77, 67, 67);
+            
+    
+            position: relative;
+        }
+
+        .bottomitems{
+           justify-content: center;
+           position: absolute; 
+            }
+
+    .firstbox{
+
+        width: 200px;
+        height: 470px;
+        border-style: solid;
+        border-width: 0px;
+        background-color: aliceblue;
+        margin-bottom: 35px;
+    }
+    .basicbox{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .sendbox:hover{
+        background-color: rgb(180, 180, 172);
+    }
+
+    .newblog{
+        display: flex;
+        background-color:grey;
+    }
+
+    .btn1{
+          height: 35px;
+          width: 65px;
+          font-size: 10px;
+          background-color: black;
+          color: azure;
+        }
+
+        div img{
+            height: 380px;
+        }
+
+
+      
+           
+        
+    </style>
+</head>
+<body>
+    <div class="cabin">
+        <div class="leftcabin">
+                <h1 style="margin-top: 100px; margin-bottom: 100px;">Ramakanth</h1>
+                <h1>PORTFOLIO</h1>
+                <h1>ABOUT ME</h1>
+                <h1>CONTACT</h1>
+        </div>
+
+        <div class="rightcabin">
+
+            <div class="imgg">
+
+            
+            <div>
+            <img src="https://www.w3schools.com/w3images/natureboy.jpg " >
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/boy.jpg" >
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl.jpg">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl_mountain.jpg">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/man_bench.jpg">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl_train.jpg" >
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl.jpg" >
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/natureboy.jpg" >
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/closegirl.jpg" >
+        </div>
+        <div class="buttoncabin" style="grid-column: 1/4;">
+            <button><<</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>>></button>
+
+          
+        </div>
+
+        <div class="bottomcabin" style="grid-column: 1/4 ; text-align: center; color: aliceblue;">
+            
+  
+            <h1 >About Me</h1>
+            <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" style="align-items: center;">
+
+            <h1 style="margin-left: 120px; text-align: left;">My Name</h1>
+            <p style="margin-left: 120px; text-align: left; width: 550px;">
+                Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p style="margin-left: 120px; text-align: left;"">
+                mail: example@example.com
+            </p>
+            <p style="margin-left: 120px; text-align: left;"">
+                tel: 5353 35531
+            </p>
+            <hr  style="margin-left: 120px; margin-right: 100px;">
+
+            <h1 style="margin-left: 120px; text-align: left;">Technical Skills</h1>
+
+            <h1 style="margin-left: 120px; text-align: left;">
+                Photography
+            </h1>
+
+
+            <div style="background-color: aliceblue; margin-left: 120px; margin-right: 100px;">
+            <h1 style="height: 28px; width: 500px; background-color: blanchedalmond; text-align: left;">
+
+            </h1>
+        </div>3
+        
+        <h1 style="margin-left: 120px; text-align: left;">
+            Web Design
+        </h1>
+        <div style="background-color: aliceblue; margin-left: 120px; margin-right: 100px;">
+        <h1 style="height: 28px; width: 400px; background-color: blanchedalmond; text-align: left;">
+
+        </h1>
+        </div>
+        <h1 style="margin-left: 120px; text-align: left;">
+            Photoshop
+        </h1>
+        <div style="background-color: aliceblue; margin-left: 120px; margin-right: 100px;">
+        <h1 style="height: 28px; width: 350px; background-color: blanchedalmond; text-align: left;">
+
+        </h1>
+        </div>
+        <div>
+        <button style="background-color: aliceblue; height: 45px; width: 160px; color: black; text-align:center; margin-right: 345px;">Download Resume</button>
+    </div>
+    <hr  style="margin-left: 120px; margin-right: 100px;">
+
+
+    <h1 style="margin-left: 120px; text-align: left;">
+        How Much I Charge
+    </h1>
+
+    <div class="basicbox">
+        <div class="firstbox">
+            <h1 style=" margin-top: 0;  height: 80px; background-color: black;">Basic</h1>
+            <P style="color: grey;">Web Design</P>
+            <hr>
+            <P style="color: grey;">Photography</P>
+            <hr>
+            <P style="color: grey;">5GB Storage</P>
+            <hr>
+            <P style="color: grey;">Endless Support</P>
+            <hr>
+            <P style="color: grey;">$ 10</P><br><p style="color: grey;">per month</p>
+            <hr>
+            <button style="background-color: aliceblue; height: 45px; width: 160px; color: black; text-align:center;">Sign Up</button>
+        </div>
+
+
+
+        <div class="firstbox">
+            <h1 style=" margin-top: 0;  height: 80px; background-color: black;">Pro</h1>
+
+            <P style="color: grey;">Web Design</P>
+            <hr>
+            <P style="color: grey;">Photography</P>
+            <hr>
+            <P style="color: grey;">5GB Storage</P>
+            <hr>
+            <P style="color: grey;">Endless Support</P>
+            <hr>
+            <P style="color: grey;">$ 25</P><br><p style="color: grey;">per month</p>
+            <hr>
+            <button style="background-color: aliceblue; height: 45px; width: 160px; color: black; text-align:center;">Sign Up</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div style="grid-column: 1/4; background-color: rgb(242, 239, 233);">
+    <h1 style="text-align: center;">Contact Me</h1>
+    <p style="width: 550px; margin-left: 75px;">Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+
+    
+    <form action="">
+        <label style="font-size:32px; margin-left: 112px;">Name</label><br>
+        <input type="text" style="width: 600px; height:30px; margin-left: 135px; margin-top: 10px; margin-bottom: 10px;"><br>
+
+        <label style="font-size:32px; margin-left: 112px;">Name</label><br>
+        <input type="text" style="width: 600px; height:30px; margin-left: 135px; margin-top: 10px; margin-bottom: 10px;"><br>
+        
+        <label style="font-size:32px; margin-left: 112px;">Name</label><br>
+        <input type="text" style="width: 600px; height:30px; margin-left: 135px; margin-top: 10px; margin-bottom: 10px;"><br>
+    </form>
+     
+    <h1  class="sendbox" style="text-align: center; border-radius: 10px; padding: 15px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; background-color: black; color: azure; width: 550px; margin-left:155px;" class="sendbox" >Send Message</h1>  
+<hr>
+
+   
+
+</div>
+
+<div class="newblog" style="grid-column: 1/4;">
+    <div >
+      <h1 style="font-weight: 200;">Footer</h1>
+      <p style="width: 400px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+
+      </p>
+      <p>Powered by w3.css</p>
+    </div>
+    <div >
+      <h1 style="font-weight: 200; margin-right: 45px;">BLOG POSTS</h1>
+      <div >
+     <div class="blog1">
+      <img style="width: 70px; height: 70px;" src="https://www.w3schools.com/w3images/workshop.jpg">
+      <h1>Lorem <p style="font-weight: lighter; font-size: small;">Sed mattis nunc</p></h1>
+      
+    </div>
+    <div class="blog1">
+      <img style="width: 70px; height: 70px;" src="https://www.w3schools.com/w3images/gondol.jpg">
+      <h1>Lorem <p style="font-weight: lighter; font-size: small;">Praes tinci sed</p></h1>
+      
+    </div>
+
+  
+  </div>
+
+
+  
+
+    </div>
+    <div>
+    <h1 style="font-weight: 200;">Popular Tags</h1>
+    <button class="btn1">Travel</button>
+    <button class="btn1">New York</button>
+    <button class="btn1">Dinner</button>
+    <button class="btn1">Travel</button>
+    <button class="btn1">New York</button>
+    <button class="btn1">Dinner</button>
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div style="grid-column: 1/4; background-color: black; color: azure; text-align: center;">
+    <p> Powered by w3.css</p>
+  </div>
+
+</div>
+    </div>
+
+    </div>
+    </div>
+       
+        </div>
+        
+       
+
+       
+       
+    </div>
+ 
+</body>
+</html>
